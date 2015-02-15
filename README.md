@@ -6,6 +6,10 @@ In short:
 
 ## How to generate 3 stages (ours, theirs, and base one)?
 
+`merge.conflictstyle` has to be set to `diff3`
+
+`git merge master`
+
 ```
 git show :1:roses.txt > roses.common.txt
 ```
